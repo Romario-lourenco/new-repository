@@ -7,33 +7,34 @@
     <title>Calculadora</title>
 </head>
 <link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
 <body>
     <section>
         <h2>Calculadora</h2>
         <p id="painel"></p>
         <div class="btn">
-            <div id="clean">C</div>
-            <div>⌫</div>
-            <div>&divide;</div>
+            <div id="clean"  onclick="limpar()">C</div>
+            <div onclick="apagar()">⌫</div>
+            <div onclick="insert('/')">&divide;</div>
 
-            <div>7</div>
-            <div>8</div>
-            <div>9</div>
-            <div>*</div>
+            <div onclick="insert(7)">7</div>
+            <div onclick="insert(8)">8</div>
+            <div onclick="insert(9)">9</div>
+            <div onclick="insert('*')">*</div>
 
-            <div>4</div>
-            <div>5</div>
-            <div>6</div>
-            <div>-</div>
+            <div onclick="insert(4)">4</div>
+            <div onclick="insert(5)">5</div>
+            <div onclick="insert(6)">6</div>
+            <div onclick="insert('-')">-</div>
 
-            <div>1</div>
-            <div>2</div>
-            <div>3</div>
-            <div class="box"><div id="soma">+</div></div>
+            <div onclick="insert(1)">1</div>
+            <div onclick="insert(2)">2</div>
+            <div onclick="insert(3)">3</div>
+            <div class="box"><div  onclick="insert('+')" id="soma">+</div></div>
 
-            <div>0</div>
-            <div>.</div>
-            <div>=</div>
+            <div onclick="insert(0)">0</div>
+            <div onclick="insert('.')">.</div>
+            <div onclick="igual()">=</div>
 
         </div>
     </section>
