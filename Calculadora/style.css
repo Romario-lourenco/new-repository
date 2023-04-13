@@ -1,0 +1,61 @@
+body{
+    box-sizing:border-box;
+}
+section{
+    margin: auto;
+    width: 300px;
+    background: linear-gradient(135deg, #363636,#ccc);
+    border-radius: 10px;
+    box-shadow: gray 0px 0px 20px 8px;
+}
+h2{
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+#painel{
+    width: 290px;
+    height: 50px;
+    background-color: white;
+    margin:auto;
+}
+.btn{
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    /* justify-content: center; */
+    padding-left: 3px;
+}
+.btn div{
+    display: inline-block;
+    border: outset;
+    width: 64px;
+    height: 45px;
+    margin: 2px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+}
+.btn div:hover{
+    cursor:pointer;
+}
+.btn div:active{
+    border: inset;
+}
+#clean{
+    width: 138px;
+}
+#soma{
+    height: 99px;
+    line-height: 99px;
+}
+.btn .box{
+    margin: 0px;
+    border: 0px;
+    padding: 0%;
+    width: auto;
+}
+.btn .box:active{
+    border: 0px;
+}
