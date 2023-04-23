@@ -1,0 +1,29 @@
+input[type=button] {
+    background-color: #4CAF50; /* cor de fundo do botão */
+    border: none; /* remover borda do botão */
+    color: white; /* cor do texto do botão */
+    padding: 20px; /* tamanho do preenchimento do botão */
+    text-align: center; /* alinhamento do texto do botão */
+    text-decoration: none; /* remover sublinhado do texto */
+    display: inline-block; /* display em linha do botão */
+    font-size: 16px; /* tamanho da fonte do botão */
+    margin: 4px 2px; /* margem entre os botões */
+    cursor: pointer; /* cursor de ponteiro ao passar o mouse sobre o botão */
+  }
+  
+  #display {
+    width: 100%; /* largura do display */
+    font-size: 24px; /* tamanho da fonte do display */
+    padding: 10px; /* tamanho do preenchimento do display */
+    margin-bottom: 10px; /* margem inferior do display */
+  }
+  
+  body {
+    background-color: #f2f2f2; /* cor de fundo da página */
+    font-family: Arial, sans-serif; /* fonte padrão */
+  }
+  
+  form {
+    max-width: 500px; /* largura máxima do formulário */
+    margin: auto; /* centralizar o formulário na página */
+  }
